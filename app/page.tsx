@@ -31,7 +31,7 @@ export default async function Home({ searchParams }: any) {
         <div className="home__filters">
           <SearchBar />
 
-          <div className="home__filters-container">
+          <div className="home__filter-container">
             <CustomFilter
               title="fuel"
               options={fuels}
